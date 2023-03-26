@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+div.side_picture1 {
+    width: 50%;
+    background: hsla(258, 100%, 68%, 1);
+
+    background: linear-gradient(90deg, hsla(258, 100%, 68%, 1) 0%, hsla(219, 98%, 49%, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    min-height: 100vh;
+}
+
+div.side_picture2 {
+    width: 440px;
+}
+
+div.container {
+    width: 432px;
+    height: 525px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: rgb(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "Roboto";
+}
+
+div.container header {
+    text-align: center;
+}
+
+img.logo {
+    width: 48px;
+    margin: 0px auto;
+}
+
+div.container h2.tittle {
+    font-weight: 700px;
+    font-size: 40px;
+    color: black;
+    margin-top: 24px;
+}
+
+div.container h2.tittle span {
+    color: #6422CD;
+}
+
+div.container div.login-message {
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin-top: 24px;
+}
+
+div.container form {
+    margin-top: 24px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+div.container form input {
+    outline: none;
+    padding: 8px 12px;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 213, 219);
+}
+
+div.container form input:focus {
+    border-color: purple;
+}
+
+div.container form div.pass {
+    display: flex;
+    align-items: center;
+}
+
+div.container form div.pass input {
+    flex-grow: 1;
+}
+
+div.forgot_pw {
+    margin-bottom: 24px;
+    text-align: right;
+}
+
+div.forgot_pw a.forgot-password {
+    color: rgb(79, 70, 229);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+div.container button.login {
+    width: 350px;
+    padding: 8px 16px;
+    background-color: #4f46e5;
+    position: relative;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
